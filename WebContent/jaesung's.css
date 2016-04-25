@@ -1,0 +1,83 @@
+body {
+	font-size: 15px;
+	color: #333;
+}
+header, article, footer, #sidemenu 
+{
+	border: 1px solid #999;
+	margin:5px;
+	padding:10px;
+}
+header 
+{
+	height: 110px;
+	background-color:white;
+	font-family: "Yj BLOCK 중간";
+	font-size: 0.75em
+}
+article 
+{
+	float:left;
+	width:75%;
+	height:500px;
+	font-size: 0.9em;
+	font-family: "Yj BLOCK 중간";
+	background-image:url(bgimg.JPG);
+	line-height: 2em;
+}
+
+figure 
+{
+	float:right;
+	margin:5px;	
+}
+
+figure img 
+{
+	width:564px;
+	height:421px;
+}
+
+figcaption 
+{
+	text-align:right;
+}
+
+footer 
+{
+	clear:both;
+	height:20px;
+	background-color:white;
+	padding:50px;
+	text-align:center;
+}
+
+nav ul 
+{
+	list-style:none;
+	float:right;
+}
+
+nav ul li 
+{
+	float:left;
+	margin:0 20px;
+}
+
+#sidemenu {
+	float:right;
+	width:20%;
+	height:500px;
+	background-color:white;
+	font-size: 0.85em
+}
+
+#sidemenu ul {
+	list-style:none;
+}
+
+hgroup 
+{
+	border-bottom: 1px solid #F90;
+
+}
